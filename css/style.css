@@ -1,0 +1,87 @@
+nav#navbar{
+    background-color:#d33f28;
+}
+
+input::placeholder {
+    color: blue;
+    font-size: 1.5em;
+}
+
+h1#titleIndex{
+    margin-top:5%;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.bg{
+    background-attachment: fixed;
+    background-size: cover;
+    background: url("../img/bg.svg") 70% -10rem no-repeat  #1c515e;
+}
+
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
+}
+
+footer img{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: not-allowed;
+    text-decoration: none;
+    color: black;
+}
+
+.inputForms::placeholder{
+    font-size: 13px!important;
+}
+#inputNavSearch::placeholder{
+    font-size: 16px!important;
+}
+#inputEluNom::placeholder{
+    font-size: 13px!important;
+}
+
+.form-control-warning {
+    color: #495057!important;
+    background-color: #fff!important;
+    border-color: rgba(65, 7, 7, 0.253)!important;
+    outline: 0!important;
+    box-shadow: 0 0 0 0.2rem rgba(241, 7, 7, 0.384)!important;
+  }
+
+.textColor {
+    color:#ffcb20!important
+}
+
+.primary-darker-hover {
+    color: #4285F4;
+    -webkit-transition: .4s;
+    transition: .4s; }
+  .primary-darker-hover:hover {
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #0d5bdd; }
+
+
